@@ -1,0 +1,6 @@
+var namespace_word_analyzer_1_1_core =
+[
+    [ "IWordFrequencyAnalyzer", "interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer.html", "interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer" ],
+    [ "ParallelAnalyzer", "class_word_analyzer_1_1_core_1_1_parallel_analyzer.html", "class_word_analyzer_1_1_core_1_1_parallel_analyzer" ],
+    [ "SequentialAnalyzer", "class_word_analyzer_1_1_core_1_1_sequential_analyzer.html", "class_word_analyzer_1_1_core_1_1_sequential_analyzer" ]
+];

@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 namespace WordAnalyzer.Core
 {
     /// <summary>
-    /// Паралельний (мультипотоковий) аналізатор частоти слів.
-    /// Використовує TPL (Task Parallel Library) для розподілу навантаження на ядра процесора.
+    /// Parallel (multi-threaded) word frequency analyzer.
+    /// Uses TPL (Task Parallel Library) to distribute the load across processor cores.
     /// </summary>
     public class ParallelAnalyzer : IWordFrequencyAnalyzer
     {
         public IDictionary<string, int> Analyze(IEnumerable<string> filePaths)
         {
-            // ПОТОКОБЕЗПЕЧНИЙ словник. Звичайний Dictionary тут видасть помилку під час одночасного запису!
+            
             var wordCounts = new ConcurrentDictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             
             char[] separators = { ' ', '.', ',', ';', ':', '!', '?', '\n', '\r', '\t', '—', '-', '\"', '\'' };
 
-            // Головна магія розпаралелювання: файли розкидаються по доступних ядрах процесора
+            
             Parallel.ForEach(filePaths, path =>
             {
                 foreach (var line in File.ReadLines(path))

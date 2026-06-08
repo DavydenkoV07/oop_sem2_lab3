@@ -1,0 +1,53 @@
+\doxysection{Word\+Analyzer.\+Core.\+Sequential\+Analyzer Class Reference}
+\hypertarget{class_word_analyzer_1_1_core_1_1_sequential_analyzer}{}\label{class_word_analyzer_1_1_core_1_1_sequential_analyzer}\index{WordAnalyzer.Core.SequentialAnalyzer@{WordAnalyzer.Core.SequentialAnalyzer}}
+
+
+Sequential (single-\/threaded) word frequency analyzer.  
+
+
+Inheritance diagram for Word\+Analyzer.\+Core.\+Sequential\+Analyzer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_word_analyzer_1_1_core_1_1_sequential_analyzer}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+IDictionary$<$ string, int $>$ \mbox{\hyperlink{class_word_analyzer_1_1_core_1_1_sequential_analyzer_a3dea48afea9cda52fa1fa60d7e1365b4}{Analyze}} (IEnumerable$<$ string $>$ file\+Paths)
+\begin{DoxyCompactList}\small\item\em Analyzes a list of files and counts the frequency of each word. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Sequential (single-\/threaded) word frequency analyzer. 
+
+\label{doc-func-members}
+\Hypertarget{class_word_analyzer_1_1_core_1_1_sequential_analyzer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_word_analyzer_1_1_core_1_1_sequential_analyzer_a3dea48afea9cda52fa1fa60d7e1365b4}\index{WordAnalyzer.Core.SequentialAnalyzer@{WordAnalyzer.Core.SequentialAnalyzer}!Analyze@{Analyze}}
+\index{Analyze@{Analyze}!WordAnalyzer.Core.SequentialAnalyzer@{WordAnalyzer.Core.SequentialAnalyzer}}
+\doxysubsubsection{\texorpdfstring{Analyze()}{Analyze()}}
+{\footnotesize\ttfamily \label{class_word_analyzer_1_1_core_1_1_sequential_analyzer_a3dea48afea9cda52fa1fa60d7e1365b4} 
+IDictionary$<$ string, int $>$ Word\+Analyzer.\+Core.\+Sequential\+Analyzer.\+Analyze (\begin{DoxyParamCaption}\item[{IEnumerable$<$ string $>$}]{file\+Paths}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Analyzes a list of files and counts the frequency of each word. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Paths} & A collection of paths to text files.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A dictionary where the key is a word and the value is the number of repetitions.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer_af080e7a93e3f5a10d117d03940bf6747}{Word\+Analyzer.\+Core.\+IWord\+Frequency\+Analyzer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Word\+Analyzer.\+Core/\mbox{\hyperlink{_sequential_analyzer_8cs}{Sequential\+Analyzer.\+cs}}\end{DoxyCompactItemize}

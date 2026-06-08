@@ -5,21 +5,21 @@ using System.IO;
 namespace WordAnalyzer.Core
 {
     /// <summary>
-    /// Послідовний (однопотоковий) аналізатор частоти слів.
+    /// Sequential (single-threaded) word frequency analyzer.
     /// </summary>
     public class SequentialAnalyzer : IWordFrequencyAnalyzer
     {
         public IDictionary<string, int> Analyze(IEnumerable<string> filePaths)
         {
-            // Звичайний словник для одного потоку. Ігноруємо регістр слів.
+            // Звичайний словник для одного потоку
             var wordCounts = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             
-            // Роздільники слів (пробіли, розділові знаки тощо)
+            
             char[] separators = { ' ', '.', ',', ';', ':', '!', '?', '\n', '\r', '\t', '—', '-', '\"', '\'' };
 
             foreach (var path in filePaths)
             {
-                // Читаємо файл по рядках, щоб не завантажувати гігантський файл у пам'ять цілком
+                // Читаємо файл по рядках
                 foreach (var line in File.ReadLines(path))
                 {
                     var words = line.Split(separators, StringSplitOptions.RemoveEmptyEntries);

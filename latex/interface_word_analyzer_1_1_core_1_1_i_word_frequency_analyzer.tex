@@ -1,0 +1,53 @@
+\doxysection{Word\+Analyzer.\+Core.\+IWord\+Frequency\+Analyzer Interface Reference}
+\hypertarget{interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer}{}\label{interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer}\index{WordAnalyzer.Core.IWordFrequencyAnalyzer@{WordAnalyzer.Core.IWordFrequencyAnalyzer}}
+
+
+Interface for word frequency counting algorithms. (Strategy pattern)  
+
+
+Inheritance diagram for Word\+Analyzer.\+Core.\+IWord\+Frequency\+Analyzer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.985816cm]{interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+IDictionary$<$ string, int $>$ \mbox{\hyperlink{interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer_af080e7a93e3f5a10d117d03940bf6747}{Analyze}} (IEnumerable$<$ string $>$ file\+Paths)
+\begin{DoxyCompactList}\small\item\em Analyzes a list of files and counts the frequency of each word. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface for word frequency counting algorithms. (Strategy pattern) 
+
+\label{doc-func-members}
+\Hypertarget{interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer_af080e7a93e3f5a10d117d03940bf6747}\index{WordAnalyzer.Core.IWordFrequencyAnalyzer@{WordAnalyzer.Core.IWordFrequencyAnalyzer}!Analyze@{Analyze}}
+\index{Analyze@{Analyze}!WordAnalyzer.Core.IWordFrequencyAnalyzer@{WordAnalyzer.Core.IWordFrequencyAnalyzer}}
+\doxysubsubsection{\texorpdfstring{Analyze()}{Analyze()}}
+{\footnotesize\ttfamily \label{interface_word_analyzer_1_1_core_1_1_i_word_frequency_analyzer_af080e7a93e3f5a10d117d03940bf6747} 
+IDictionary$<$ string, int $>$ Word\+Analyzer.\+Core.\+IWord\+Frequency\+Analyzer.\+Analyze (\begin{DoxyParamCaption}\item[{IEnumerable$<$ string $>$}]{file\+Paths}{}\end{DoxyParamCaption})}
+
+
+
+Analyzes a list of files and counts the frequency of each word. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Paths} & A collection of paths to text files.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A dictionary where the key is a word and the value is the number of repetitions.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_word_analyzer_1_1_core_1_1_parallel_analyzer_a2c6de73065ccba12412e42b4813c5685}{Word\+Analyzer.\+Core.\+Parallel\+Analyzer}}, and \mbox{\hyperlink{class_word_analyzer_1_1_core_1_1_sequential_analyzer_a3dea48afea9cda52fa1fa60d7e1365b4}{Word\+Analyzer.\+Core.\+Sequential\+Analyzer}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Word\+Analyzer.\+Core/\mbox{\hyperlink{_i_word_frequency_analyzer_8cs}{IWord\+Frequency\+Analyzer.\+cs}}\end{DoxyCompactItemize}

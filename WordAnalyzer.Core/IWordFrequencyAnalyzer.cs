@@ -3,15 +3,15 @@ using System.Collections.Generic;
 namespace WordAnalyzer.Core
 {
     /// <summary>
-    /// Інтерфейс для алгоритмів підрахунку частоти слів. (Патерн Strategy)
+    /// Interface for word frequency counting algorithms. (Strategy pattern)
     /// </summary>
     public interface IWordFrequencyAnalyzer
     {
         /// <summary>
-        /// Аналізує список файлів та рахує частоту кожного слова.
+        /// Analyzes a list of files and counts the frequency of each word.
         /// </summary>
-        /// <param name="filePaths">Колекція шляхів до текстових файлів.</param>
-        /// <returns>Словник, де ключ - слово, а значення - кількість повторень.</returns>
+        /// <param name="filePaths">A collection of paths to text files.</param>
+        /// <returns>A dictionary where the key is a word and the value is the number of repetitions.</returns>
         IDictionary<string, int> Analyze(IEnumerable<string> filePaths);
     }
 }
