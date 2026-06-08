@@ -1,0 +1,12 @@
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\bin\Debug\net8.0\WordAnalyzer.Core.deps.json
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\bin\Debug\net8.0\WordAnalyzer.Core.dll
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\bin\Debug\net8.0\WordAnalyzer.Core.pdb
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\WordAnalyzer.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\WordAnalyzer.Core.AssemblyInfoInputs.cache
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\WordAnalyzer.Core.AssemblyInfo.cs
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\WordAnalyzer.Core.csproj.CoreCompileInputs.cache
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\WordAnalyzer.Core.sourcelink.json
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\WordAnalyzer.Core.dll
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\refint\WordAnalyzer.Core.dll
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\WordAnalyzer.Core.pdb
+D:\Vika\universiti\OOP\WordFrequencySolution\WordAnalyzer.Core\obj\Debug\net8.0\ref\WordAnalyzer.Core.dll
